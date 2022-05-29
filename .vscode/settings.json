@@ -1,9 +1,0 @@
-{
-  "[lua]": {
-    "editor.formatOnSave": false,
-  },
-  "Lua.diagnostics.globals": [
-    "vim",
-    "use"
-  ]
-}
