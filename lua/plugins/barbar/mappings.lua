@@ -30,7 +30,8 @@ map('n', '<A-c>', ':BufferClose<CR>', opts)
 -- Pin/Unpin 
 map('n', '<leader>pp', ':BufferPin<CR>', opts)
 -- Magic buffer-picking mode
-map('n', '<S-p>', ':BufferPick<CR>', opts)
+-- map('n', '<S-p>', ':BufferPick<CR>', opts)
+
 -- Sort automatically by...
 map('n', '<Space>bb', ':BufferOrderByBufferNumber<CR>', opts)
 map('n', '<Space>bd', ':BufferOrderByDirectory<CR>', opts)

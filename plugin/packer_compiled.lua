@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/neoformat",
     url = "https://github.com/sbdchd/neoformat"
   },
+  neomake = {
+    loaded = true,
+    path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/neomake",
+    url = "https://github.com/neomake/neomake"
+  },
   nerdcommenter = {
     loaded = true,
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/nerdcommenter",
