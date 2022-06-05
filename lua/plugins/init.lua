@@ -5,8 +5,7 @@ return require("packer").startup(function()
   -- Gruvbox colorscheme
   use 'morhetz/gruvbox'
 
-  -- Auto pairs
-  use 'jiangmiao/auto-pairs'
+  use 'windwp/nvim-autopairs'
 
   -- Comment
   use 'scrooloose/nerdcommenter'

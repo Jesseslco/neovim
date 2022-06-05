@@ -5,6 +5,7 @@ vim.api.nvim_set_keymap("i", "<M-,>", '<Plug>(copilot-previous)', { noremap = fa
 
 vim.g.copilot_filetypes = {
     ["*"] = false,
+    ["json"] = true,
     ["javascript"] = true,
     ["typescript"] = true,
     ["lua"] = true,

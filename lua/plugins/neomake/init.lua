@@ -25,4 +25,6 @@ map("n", "<leader>pp", ":lprev<CR>", opts)
 --let g:neomake_python_enabled_makers = ['flake8', 'mypy']
 vim.g["neomake_python_enabled_makers"] = "flake8, mypy"
 --let g:neomake_typescript_enabled_makers = ['tslint']
-vim.g["neomake_typescript_enabled_makers"] = "tslint"
+vim.g["neomake_typescript_enabled_makers"] = "eslint"
+vim.g["neomake_javascript_enabled_makers"] = "eslint"
+vim.g["neomake_jsx_enabled_makers"] = "eslint"
