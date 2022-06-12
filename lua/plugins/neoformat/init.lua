@@ -6,5 +6,5 @@ vim.g["neoformat_enable_typescriptreact"] = "prettier"
 vim.g["neoformat_enable_json"] = "prettier"
 
 
-local fmt = vim.api.nvim_create_augroup("fmt", { clear = true })
-vim.api.nvim_create_autocmd("BufWritePre", { pattern = '*.ts,*.rs,*.json', command = "undojoin | Neoformat", group = fmt })
+--local fmt = vim.api.nvim_create_augroup("fmt", { clear = true })
+--vim.api.nvim_create_autocmd("BufWritePre", { pattern = '*.ts,*.rs,*.json', command = "undojoin | Neoformat", group = fmt })

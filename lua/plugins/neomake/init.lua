@@ -11,7 +11,7 @@ vim.fn['neomake#configure#automake']('nw', 750)
 -- call neomake#configure#automake('nw', 750)
 
 -- When reading a buffer (after 1s), and when writing (no delay).
-vim.fn['neomake#configure#automake']('rw', 1000)
+ vim.fn['neomake#configure#automake']('rw', 1000)
 
 -- Full config: when writing or reading a buffer, and on changes in insert and
 -- normal mode (after 500ms; no delay when writing).
@@ -22,9 +22,7 @@ map("n", "<leader>nn", ":lnext<CR>", opts)
 map("n", "<leader>pp", ":lprev<CR>", opts)
 
 -- language
---let g:neomake_python_enabled_makers = ['flake8', 'mypy']
-vim.g["neomake_python_enabled_makers"] = "flake8, mypy"
---let g:neomake_typescript_enabled_makers = ['tslint']
-vim.g["neomake_typescript_enabled_makers"] = "eslint"
-vim.g["neomake_javascript_enabled_makers"] = "eslint"
-vim.g["neomake_jsx_enabled_makers"] = "eslint"
+vim.g["neomake_typescript_enabled_makers"] = {'eslint'}
+vim.g["neomake_eslint_exe"] = "eslint_d"
+--vim.g[neomake_javascript_eslint_exe] = "/Users/towry/Projects/buck/node_modules/.bin/eslint"
+

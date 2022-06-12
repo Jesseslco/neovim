@@ -74,5 +74,7 @@ return require("packer").startup(function()
   end}
 
   -- neomake
-  use 'neomake/neomake'
+  -- use 'neomake/neomake'
+
+  use 'jose-elias-alvarez/null-ls.nvim'
 end)

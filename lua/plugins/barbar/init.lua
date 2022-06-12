@@ -18,7 +18,7 @@ vim.g.bufferline = {
   clickable = true,
 
   -- Excludes buffers from the tabline
-  exclude_ft = {'javascript'},
+  --exclude_ft = {'javascript'},
   exclude_name = {'package.json'},
 
   -- Enable/disable icons
@@ -66,4 +66,4 @@ vim.g.bufferline = {
   no_name_title = nil,
 }
 
-require("./mappings")
+-- require("./mappings")
