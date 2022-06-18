@@ -29,7 +29,10 @@ return require("packer").startup(function()
   }
 
   -- neoformat
-  use "sbdchd/neoformat"
+  -- use "sbdchd/neoformat"
+
+  -- formatter
+  use { 'mhartington/formatter.nvim' }
 
   -- Lsp
   use 'neovim/nvim-lspconfig'
