@@ -11,7 +11,15 @@ require('formatter').setup({
           }
         end
     },
-    -- other formatters ...
+    rust = {
+        -- rustfmt
+        function()
+          return {
+            exe = "rustfmt",
+            stdin = true
+          }
+        end
+    },
   }
 })
 

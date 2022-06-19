@@ -17,7 +17,9 @@ return require("packer").startup(function()
   use 'tpope/vim-surround'
 
   -- gruvbox-material colorscheme
-  use "sainnhe/gruvbox-material"
+  -- use "sainnhe/gruvbox-material"
+
+  use "EdenEast/nightfox.nvim"
 
   -- Nvim-tree
   use {

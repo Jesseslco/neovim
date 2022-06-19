@@ -119,15 +119,15 @@ _G.packer_plugins = {
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
-  ["gruvbox-material"] = {
-    loaded = true,
-    path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/gruvbox-material",
-    url = "https://github.com/sainnhe/gruvbox-material"
-  },
   nerdcommenter = {
     loaded = true,
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/scrooloose/nerdcommenter"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,

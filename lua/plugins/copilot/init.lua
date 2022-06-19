@@ -3,6 +3,8 @@ vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true,
 vim.api.nvim_set_keymap("i", "<M-.>", '<Plug>(copilot-next)', { noremap = false })
 vim.api.nvim_set_keymap("i", "<M-,>", '<Plug>(copilot-previous)', { noremap = false })
 
+vim.g.copilot_node_command = '/home/gorgc/.nvm/versions/node/v16.14.0/bin/node'
+
 vim.g.copilot_filetypes = {
     ["*"] = false,
     ["json"] = true,
