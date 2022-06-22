@@ -15,4 +15,6 @@ require("plugins.barbar")
 require("plugins.barbar.mappings")
 require("plugins.nvim-autopairs")
 -- require("schemes.gruvbox-material")
-require("plugins.nightfox")
+--require("plugins.nightfox")
+require("plugins.everforest")
+

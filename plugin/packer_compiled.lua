@@ -109,25 +109,20 @@ _G.packer_plugins = {
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  everforest = {
+    loaded = true,
+    path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
   },
-  gruvbox = {
-    loaded = true,
-    path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
   nerdcommenter = {
     loaded = true,
     path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/scrooloose/nerdcommenter"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/gorgc/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,

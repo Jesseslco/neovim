@@ -3,7 +3,7 @@ return require("packer").startup(function()
   use 'wbthomason/packer.nvim'
 
   -- Gruvbox colorscheme
-  use 'morhetz/gruvbox'
+  -- use 'morhetz/gruvbox'
 
   use 'windwp/nvim-autopairs'
 
@@ -19,7 +19,9 @@ return require("packer").startup(function()
   -- gruvbox-material colorscheme
   -- use "sainnhe/gruvbox-material"
 
-  use "EdenEast/nightfox.nvim"
+  -- use "EdenEast/nightfox.nvim"
+
+  use "sainnhe/everforest"
 
   -- Nvim-tree
   use {
